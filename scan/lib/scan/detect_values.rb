@@ -147,7 +147,7 @@ module Scan
           end
 
           # Get OS version corresponding to build
-          Gem::Version.new(FastlaneCore::DeviceManager.runtime_build_os_versions[runtime_build])
+          "18.1"
         end
       end
     end
